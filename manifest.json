@@ -1,0 +1,14 @@
+﻿{
+  "guid": "h3vr.tnhtweaker.pistolpercy",
+  "version": "0.1.1.0",
+  "dependencies": {
+      "h3vr.tnhtweaker.deli": "0.1.4.0"
+  },
+  "name": "Pistol Percy",
+  "authors": [ 
+    "Stark" 
+  ],
+  "runtime": {
+    "PistolPercy/": "Character"
+  }
+}
