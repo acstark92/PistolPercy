@@ -1,6 +1,6 @@
-﻿{
+{
 	"DisplayName": "Pistol Percy",
-	"Description": "Pistols and Machine Pistols only.\n by Stark",
+	"Description": "Pistols and Machine Pistols only.\nDiscounted Attachments, numerous sosigs!\n by Stark",
 	"CharacterID": 13,
 	"CharacterGroup": 0,
 	"TableID": "PistolPercy",
@@ -482,7 +482,7 @@
 			"IconName": "TNH_Icon_reflex_sights",
 			"TokenCost": 2,
 			"TokenCostLimited": 2,
-			"MinLevelAppears": 1,
+			"MinLevelAppears": 3,
 			"MaxLevelAppears": 99,
 			"Rarity": 1.0,
 			"Tables": [{
@@ -529,7 +529,7 @@
 			"IconName": "TNH_Icon_rail_adapters",
 			"TokenCost": 1,
 			"TokenCostLimited": 1,
-			"MinLevelAppears": 1,
+			"MinLevelAppears": 3,
 			"MaxLevelAppears": 99,
 			"Rarity": 1.0,
 			"Tables": [{
@@ -549,10 +549,9 @@
 				"IDOverride": [
 					"RailAdapterHandgunLong",
 					"RailAdapterHandgunShort"
-					],
-				"Eras": [],
-				"Sets": [
 				],
+				"Eras": [],
+				"Sets": [],
 				"Sizes": [],
 				"Actions": [],
 				"Modes": [],
@@ -560,12 +559,10 @@
 				"FeedOptions": [],
 				"MountsAvailable": [],
 				"RoundPowers": [],
-				"Features": [
-				],
+				"Features": [],
 				"MeleeStyles": [],
 				"MeleeHandedness": [],
-				"MountTypes": [
-				],
+				"MountTypes": [],
 				"PowerupTypes": [],
 				"ThrownTypes": [],
 				"ThrownDamageTypes": []
@@ -623,7 +620,7 @@
 			"IconName": "TNH_Icon_laser",
 			"TokenCost": 3,
 			"TokenCostLimited": 3,
-			"MinLevelAppears": 1,
+			"MinLevelAppears": 3,
 			"MaxLevelAppears": 99,
 			"Rarity": 1.0,
 			"Tables": [{
@@ -717,7 +714,7 @@
 			"IconName": "TNH_Icon_rail_adapters",
 			"TokenCost": 1,
 			"TokenCostLimited": 1,
-			"MinLevelAppears": 0,
+			"MinLevelAppears": 2,
 			"MaxLevelAppears": 99,
 			"Rarity": 1.0,
 			"Tables": [{
@@ -764,7 +761,7 @@
 			"IconName": "TNH_Icon_foregrips",
 			"TokenCost": 1,
 			"TokenCostLimited": 1,
-			"MinLevelAppears": 1,
+			"MinLevelAppears": 3,
 			"MaxLevelAppears": 99,
 			"Rarity": 1.0,
 			"Tables": [{
@@ -809,7 +806,7 @@
 			"IconName": "TNH_Icon_attachable_stocks",
 			"TokenCost": 1,
 			"TokenCostLimited": 1,
-			"MinLevelAppears": 0,
+			"MinLevelAppears": 1,
 			"MaxLevelAppears": 99,
 			"Rarity": 1.0,
 			"Tables": [{
@@ -1034,11 +1031,11 @@
 					"MaxEnemies": 2,
 					"MaxEnemiesAlive": 10,
 					"MaxDirections": 2,
-					"SpawnCadence": 15.0,
+					"SpawnCadence": 20.0,
 					"ScanTime": 40,
 					"WarmupTime": 5,
 					"IFFUsed": 1,
-					"GrenadeChance": 0.25,
+					"GrenadeChance": 0.0,
 					"GrenadeType": "Sosiggrenade_Flash",
 					"SwarmPlayer": false
 				}
@@ -1110,7 +1107,7 @@
 					"MaxEnemies": 4,
 					"MaxEnemiesAlive": 6,
 					"MaxDirections": 1,
-					"SpawnCadence": 15,
+					"SpawnCadence": 15.0,
 					"ScanTime": 30,
 					"WarmupTime": 5,
 					"IFFUsed": 1,
@@ -1138,7 +1135,7 @@
 					"ScanTime": 40,
 					"WarmupTime": 5.0,
 					"IFFUsed": 1,
-					"GrenadeChance": 1,
+					"GrenadeChance": 0.0,
 					"GrenadeType": "Sosiggrenade_Flash",
 					"SwarmPlayer": false
 				},
@@ -1154,11 +1151,11 @@
 						"M_Swat_Scout"
 					],
 					"LeaderType": "M_Swat_Officer",
-					"MinEnemies": 4,
-					"MaxEnemies": 4,
+					"MinEnemies": 3,
+					"MaxEnemies": 3,
 					"MaxEnemiesAlive": 10,
 					"MaxDirections": 2,
-					"SpawnCadence": 8.0,
+					"SpawnCadence": 15.0,
 					"ScanTime": 50,
 					"WarmupTime": 5,
 					"IFFUsed": 1,
@@ -1234,7 +1231,7 @@
 					"MaxEnemies": 3,
 					"MaxEnemiesAlive": 6,
 					"MaxDirections": 2,
-					"SpawnCadence": 15.0,
+					"SpawnCadence": 20.0,
 					"ScanTime": 30,
 					"WarmupTime": 5,
 					"IFFUsed": 1,
@@ -1254,11 +1251,11 @@
 						"M_Swat_SpecOps"
 					],
 					"LeaderType": "M_Swat_SpecOps",
-					"MinEnemies": 3,
-					"MaxEnemies": 3,
+					"MinEnemies": 2,
+					"MaxEnemies": 2,
 					"MaxEnemiesAlive": 10,
 					"MaxDirections": 3,
-					"SpawnCadence": 15.0,
+					"SpawnCadence": 20.0,
 					"ScanTime": 40,
 					"WarmupTime": 5,
 					"IFFUsed": 1,
@@ -1357,12 +1354,12 @@
 					"MinEnemies": 2,
 					"MaxEnemies": 2,
 					"MaxEnemiesAlive": 20,
-					"MaxDirections": 4,
-					"SpawnCadence": 2.0,
+					"MaxDirections": 3,
+					"SpawnCadence": 20.0,
 					"ScanTime": 40,
 					"WarmupTime": 5,
 					"IFFUsed": 1,
-					"GrenadeChance": 0.5,
+					"GrenadeChance": 0,
 					"GrenadeType": "Sosiggrenade_Flash",
 					"SwarmPlayer": true
 				},
@@ -1381,8 +1378,8 @@
 					"MinEnemies": 4,
 					"MaxEnemies": 4,
 					"MaxEnemiesAlive": 12,
-					"MaxDirections": 4,
-					"SpawnCadence": 15.0,
+					"MaxDirections": 2,
+					"SpawnCadence": 20.0,
 					"ScanTime": 50,
 					"WarmupTime": 5.0,
 					"IFFUsed": 1,
@@ -1458,7 +1455,7 @@
 		"PossiblePanelTypes": [
 			"MagDuplicator",
 			"Recycler",
-			"AmmoReloader",
+			"AmmoReloader"
 		],
 		"TakeChallenge": {
 			"TurretType": "SMG",
@@ -1489,7 +1486,7 @@
 				"MaxEnemies": 3,
 				"MaxEnemiesAlive": 6,
 				"MaxDirections": 2,
-				"SpawnCadence": 15.0,
+				"SpawnCadence": 20.0,
 				"ScanTime": 30.0,
 				"WarmupTime": 5.0,
 				"IFFUsed": 1,
@@ -1548,8 +1545,8 @@
 				"MinEnemies": 3,
 				"MaxEnemies": 4,
 				"MaxEnemiesAlive": 12,
-				"MaxDirections": 3,
-				"SpawnCadence": 15.0,
+				"MaxDirections": 2,
+				"SpawnCadence": 20.0,
 				"ScanTime": 50,
 				"WarmupTime": 5.0,
 				"IFFUsed": 1,
