@@ -932,7 +932,7 @@
 				"MaxEnemies": 5,
 				"MaxEnemiesAlive": 10,
 				"MaxDirections": 1,
-				"SpawnCadence": 10.0,
+				"SpawnCadence": 20.0,
 				"ScanTime": 50,
 				"WarmupTime": 5,
 				"IFFUsed": 1,
@@ -1007,7 +1007,7 @@
 					"MaxEnemies": 3,
 					"MaxEnemiesAlive": 10,
 					"MaxDirections": 1,
-					"SpawnCadence": 15.0,
+					"SpawnCadence": 20.0,
 					"ScanTime": 30,
 					"WarmupTime": 5,
 					"IFFUsed": 1,
@@ -1097,7 +1097,7 @@
 					],
 					"MinTargets": 4,
 					"MaxTargets": 4,
-					"MinTargetsLimited": 2,
+					"MinTargetsLimited": 3,
 					"MaxTargetsLimited": 3,
 					"EnemyType": [
 						"M_Swat_Ranger"
@@ -1107,7 +1107,7 @@
 					"MaxEnemies": 4,
 					"MaxEnemiesAlive": 6,
 					"MaxDirections": 1,
-					"SpawnCadence": 15.0,
+					"SpawnCadence": 20.0,
 					"ScanTime": 30,
 					"WarmupTime": 5,
 					"IFFUsed": 1,
@@ -1119,10 +1119,10 @@
 					"Encryptions": [
 						"Hardened"
 					],
-					"MinTargets": 6,
-					"MaxTargets": 6,
-					"MinTargetsLimited": 6,
-					"MaxTargetsLimited": 6,
+					"MinTargets": 4,
+					"MaxTargets": 4,
+					"MinTargetsLimited": 3,
+					"MaxTargetsLimited": 3,
 					"EnemyType": [
 						"M_Swat_Riflewiener"
 					],
@@ -1131,7 +1131,7 @@
 					"MaxEnemies": 3,
 					"MaxEnemiesAlive": 6,
 					"MaxDirections": 1,
-					"SpawnCadence": 12,
+					"SpawnCadence": 20.0,
 					"ScanTime": 40,
 					"WarmupTime": 5.0,
 					"IFFUsed": 1,
@@ -1143,10 +1143,10 @@
 					"Encryptions": [
 						"Recursive"
 					],
-					"MinTargets": 4,
-					"MaxTargets": 4,
+					"MinTargets": 3,
+					"MaxTargets": 3,
 					"MinTargetsLimited": 2,
-					"MaxTargetsLimited": 3,
+					"MaxTargetsLimited": 2,
 					"EnemyType": [
 						"M_Swat_Scout"
 					],
@@ -1155,7 +1155,7 @@
 					"MaxEnemies": 3,
 					"MaxEnemiesAlive": 10,
 					"MaxDirections": 2,
-					"SpawnCadence": 15.0,
+					"SpawnCadence": 20.0,
 					"ScanTime": 50,
 					"WarmupTime": 5,
 					"IFFUsed": 1,
@@ -1219,10 +1219,10 @@
 					"Encryptions": [
 						"Swarm"
 					],
-					"MinTargets": 5,
-					"MaxTargets": 5,
-					"MinTargetsLimited": 4,
-					"MaxTargetsLimited": 4,
+					"MinTargets": 3,
+					"MaxTargets": 3,
+					"MinTargetsLimited": 2,
+					"MaxTargetsLimited": 2,
 					"EnemyType": [
 						"M_Swat_Sniper"
 					],
@@ -1243,10 +1243,10 @@
 					"Encryptions": [
 						"Recursive"
 					],
-					"MinTargets": 6,
-					"MaxTargets": 6,
-					"MinTargetsLimited": 3,
-					"MaxTargetsLimited": 4,
+					"MinTargets": 3,
+					"MaxTargets": 3,
+					"MinTargetsLimited": 2,
+					"MaxTargetsLimited": 2,
 					"EnemyType": [
 						"M_Swat_SpecOps"
 					],
@@ -1267,10 +1267,10 @@
 					"Encryptions": [
 						"Agile"
 					],
-					"MinTargets": 3,
-					"MaxTargets": 3,
+					"MinTargets": 2,
+					"MaxTargets": 2,
 					"MinTargetsLimited": 1,
-					"MaxTargetsLimited": 2,
+					"MaxTargetsLimited": 1,
 					"EnemyType": [
 						"M_Swat_Riflewiener"
 					],
@@ -1343,10 +1343,10 @@
 					"Encryptions": [
 						"Static"
 					],
-					"MinTargets": 6,
-					"MaxTargets": 6,
-					"MinTargetsLimited": 6,
-					"MaxTargetsLimited": 6,
+					"MinTargets": 5,
+					"MaxTargets": 5,
+					"MinTargetsLimited": 4,
+					"MaxTargetsLimited": 4,
 					"EnemyType": [
 						"M_Swat_Scout"
 					],
@@ -1367,10 +1367,10 @@
 					"Encryptions": [
 						"Agile"
 					],
-					"MinTargets": 4,
-					"MaxTargets": 4,
-					"MinTargetsLimited": 2,
-					"MaxTargetsLimited": 2,
+					"MinTargets": 2,
+					"MaxTargets": 2,
+					"MinTargetsLimited": 1,
+					"MaxTargetsLimited": 1,
 					"EnemyType": [
 						"M_Swat_Ranger"
 					],
@@ -1403,7 +1403,7 @@
 					"MaxEnemies": 4,
 					"MaxEnemiesAlive": 20,
 					"MaxDirections": 4,
-					"SpawnCadence": 3.0,
+					"SpawnCadence": 15.0,
 					"ScanTime": 60,
 					"WarmupTime": 5.0,
 					"IFFUsed": 1,
@@ -1427,8 +1427,8 @@
 				"PatrolSize": 1,
 				"MaxPatrols": 25,
 				"MaxPatrolsLimited": 20,
-				"PatrolCadence": 3.0,
-				"PatrolCadenceLimited": 5.0,
+				"PatrolCadence": 30.0,
+				"PatrolCadenceLimited": 50.0,
 				"IFFUsed": 1,
 				"SwarmPlayer": true,
 				"AssualtSpeed": "Running",
@@ -1474,10 +1474,10 @@
 					"Swarm",
 					"Stealth"
 				],
-				"MinTargets": 4,
-				"MaxTargets": 4,
-				"MinTargetsLimited": 3,
-				"MaxTargetsLimited": 3,
+				"MinTargets": 3,
+				"MaxTargets": 3,
+				"MinTargetsLimited": 2,
+				"MaxTargetsLimited": 2,
 				"EnemyType": [
 					"M_Swat_Sniper"
 				],
@@ -1504,10 +1504,10 @@
 					"Swarm",
 					"Stealth"
 				],
-				"MinTargets": 3,
-				"MaxTargets": 3,
-				"MinTargetsLimited": 2,
-				"MaxTargetsLimited": 2,
+				"MinTargets": 4,
+				"MaxTargets": 4,
+				"MinTargetsLimited": 3,
+				"MaxTargetsLimited": 3,
 				"EnemyType": [
 					"M_Swat_SpecOps"
 				],
@@ -1534,10 +1534,10 @@
 					"Swarm",
 					"Stealth"
 				],
-				"MinTargets": 6,
-				"MaxTargets": 6,
-				"MinTargetsLimited": 5,
-				"MaxTargetsLimited": 5,
+				"MinTargets": 5,
+				"MaxTargets": 5,
+				"MinTargetsLimited": 4,
+				"MaxTargetsLimited": 4,
 				"EnemyType": [
 					"M_Swat_Riflewiener"
 				],
