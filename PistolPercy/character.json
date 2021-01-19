@@ -36,7 +36,7 @@
 			"Category": "Firearm",
 			"ItemsToSpawn": 1,
 			"MinAmmoCapacity": 1,
-			"MaxAmmoCapacity": 20,
+			"MaxAmmoCapacity": 10,
 			"NumMagsSpawned": 3,
 			"NumRoundsSpawned": 6,
 			"BespokeAttachmentChance": -1.0,
@@ -50,7 +50,10 @@
 			"Eras": [
 				"WildWest",
 				"TurnOfTheCentury",
-				"WW1"
+				"WW1",
+				"WW2",
+				"PostWar",
+				"Modern"
 			],
 			"Sets": [
 				"Real"
@@ -170,8 +173,8 @@
 			"Tables": [{
 				"Category": "Firearm",
 				"ItemsToSpawn": 1,
-				"MinAmmoCapacity": 0,
-				"MaxAmmoCapacity": 99,
+				"MinAmmoCapacity": 5,
+				"MaxAmmoCapacity": 10,
 				"NumMagsSpawned": 3,
 				"NumRoundsSpawned": 9,
 				"BespokeAttachmentChance": 0.5,
@@ -183,7 +186,9 @@
 				"UseIDOverride": false,
 				"IDOverride": [],
 				"Eras": [
-					"WW2"
+					"WW2",
+					"PostWar",
+					"Modern"
 				],
 				"Sets": [
 					"Real",
@@ -224,7 +229,7 @@
 				"Category": "Firearm",
 				"ItemsToSpawn": 1,
 				"MinAmmoCapacity": 10,
-				"MaxAmmoCapacity": 99,
+				"MaxAmmoCapacity": 12,
 				"NumMagsSpawned": 3,
 				"NumRoundsSpawned": 9,
 				"BespokeAttachmentChance": 0.5,
@@ -236,7 +241,8 @@
 				"UseIDOverride": false,
 				"IDOverride": [],
 				"Eras": [
-					"PostWar"
+					"PostWar",
+					"Modern"
 				],
 				"Sets": [
 					"Real",
@@ -277,7 +283,7 @@
 				"Category": "Firearm",
 				"ItemsToSpawn": 1,
 				"MinAmmoCapacity": 12,
-				"MaxAmmoCapacity": 99,
+				"MaxAmmoCapacity": 15,
 				"NumMagsSpawned": 3,
 				"NumRoundsSpawned": 9,
 				"BespokeAttachmentChance": 0.5,
@@ -330,7 +336,7 @@
 				"Category": "Firearm",
 				"ItemsToSpawn": 1,
 				"MinAmmoCapacity": 15,
-				"MaxAmmoCapacity": 99,
+				"MaxAmmoCapacity": 20,
 				"NumMagsSpawned": 3,
 				"NumRoundsSpawned": 9,
 				"BespokeAttachmentChance": 0.5,
@@ -383,7 +389,7 @@
 				"Category": "Firearm",
 				"ItemsToSpawn": 1,
 				"MinAmmoCapacity": 20,
-				"MaxAmmoCapacity": 99,
+				"MaxAmmoCapacity": 30,
 				"NumMagsSpawned": 3,
 				"NumRoundsSpawned": 9,
 				"BespokeAttachmentChance": 0.5,
@@ -482,7 +488,7 @@
 			"IconName": "TNH_Icon_reflex_sights",
 			"TokenCost": 2,
 			"TokenCostLimited": 2,
-			"MinLevelAppears": 3,
+			"MinLevelAppears": 2,
 			"MaxLevelAppears": 99,
 			"Rarity": 1.0,
 			"Tables": [{
@@ -529,7 +535,7 @@
 			"IconName": "TNH_Icon_rail_adapters",
 			"TokenCost": 1,
 			"TokenCostLimited": 1,
-			"MinLevelAppears": 3,
+			"MinLevelAppears": 1,
 			"MaxLevelAppears": 99,
 			"Rarity": 1.0,
 			"Tables": [{
@@ -548,7 +554,13 @@
 				"UseIDOverride": true,
 				"IDOverride": [
 					"RailAdapterHandgunLong",
-					"RailAdapterHandgunShort"
+					"RailAdapterHandgunShort",
+					"RailedBarrelExtenderLarge",
+					"RailedBarrelExtenderMiniQuad",
+					"RailedBarrelExtenderMiniSingle",
+					"RailedBarrelExtenderSingle",
+					"RailedBarrelExtenderTallDouble",
+					"RailedBarrelExtenderTallSingle"
 				],
 				"Eras": [],
 				"Sets": [],
@@ -711,57 +723,10 @@
 		},
 		{
 			"Type": "Equipment",
-			"IconName": "TNH_Icon_rail_adapters",
-			"TokenCost": 1,
-			"TokenCostLimited": 1,
-			"MinLevelAppears": 2,
-			"MaxLevelAppears": 99,
-			"Rarity": 1.0,
-			"Tables": [{
-				"Category": "Attachment",
-				"ItemsToSpawn": 1,
-				"MinAmmoCapacity": -1,
-				"MaxAmmoCapacity": -1,
-				"NumMagsSpawned": -1,
-				"NumRoundsSpawned": -1,
-				"BespokeAttachmentChance": -1.0,
-				"RequiredExactCapacity": -1,
-				"IsBlanked": false,
-				"IsCompatibleMagazine": false,
-				"SpawnsInSmallCase": false,
-				"SpawnsInLargeCase": false,
-				"UseIDOverride": false,
-				"IDOverride": [],
-				"Eras": [],
-				"Sets": [
-					"Real"
-				],
-				"Sizes": [],
-				"Actions": [],
-				"Modes": [],
-				"ExcludedModes": [],
-				"FeedOptions": [],
-				"MountsAvailable": [],
-				"RoundPowers": [],
-				"Features": [
-					"Adapter"
-				],
-				"MeleeStyles": [],
-				"MeleeHandedness": [],
-				"MountTypes": [
-					"Muzzle"
-				],
-				"PowerupTypes": [],
-				"ThrownTypes": [],
-				"ThrownDamageTypes": []
-			}]
-		},
-		{
-			"Type": "Equipment",
 			"IconName": "TNH_Icon_foregrips",
 			"TokenCost": 1,
 			"TokenCostLimited": 1,
-			"MinLevelAppears": 3,
+			"MinLevelAppears": 1,
 			"MaxLevelAppears": 99,
 			"Rarity": 1.0,
 			"Tables": [{
@@ -1102,7 +1067,7 @@
 					"EnemyType": [
 						"M_Swat_Ranger"
 					],
-					"LeaderType": "M_Swat_Ranger",
+					"LeaderType": "M_Swat_SpecOps",
 					"MinEnemies": 4,
 					"MaxEnemies": 4,
 					"MaxEnemiesAlive": 6,
@@ -1173,9 +1138,9 @@
 			},
 			"Patrols": [{
 				"EnemyType": [
-					"M_Swat_Ranger"
+					"M_Swat_SpecOps"
 				],
-				"LeaderType": "M_Swat_Ranger",
+				"LeaderType": "M_Swat_Riflewiener",
 				"PatrolSize": 3,
 				"MaxPatrols": 3,
 				"MaxPatrolsLimited": 3,
@@ -1348,9 +1313,9 @@
 					"MinTargetsLimited": 4,
 					"MaxTargetsLimited": 4,
 					"EnemyType": [
-						"M_Swat_Scout"
+						"M_Swat_Riflewiener"
 					],
-					"LeaderType": "M_Swat_Scout",
+					"LeaderType": "M_Swat_Officer",
 					"MinEnemies": 2,
 					"MaxEnemies": 2,
 					"MaxEnemiesAlive": 20,
@@ -1372,7 +1337,7 @@
 					"MinTargetsLimited": 1,
 					"MaxTargetsLimited": 1,
 					"EnemyType": [
-						"M_Swat_Ranger"
+						"M_Swat_Riflewiener"
 					],
 					"LeaderType": "M_Swat_Officer",
 					"MinEnemies": 4,
@@ -1391,14 +1356,14 @@
 					"Encryptions": [
 						"Regenerative"
 					],
-					"MinTargets": 7,
-					"MaxTargets": 7,
-					"MinTargetsLimited": 7,
-					"MaxTargetsLimited": 7,
+					"MinTargets": 1,
+					"MaxTargets": 1,
+					"MinTargetsLimited": 1,
+					"MaxTargetsLimited": 1,
 					"EnemyType": [
-						"M_Swat_Scout"
+						"M_Swat_Riflewiener"
 					],
-					"LeaderType": "M_Swat_Scout",
+					"LeaderType": "M_Swat_Heavy",
 					"MinEnemies": 2,
 					"MaxEnemies": 4,
 					"MaxEnemiesAlive": 20,
