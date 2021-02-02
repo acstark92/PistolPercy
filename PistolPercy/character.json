@@ -168,7 +168,7 @@
 			"TokenCost": 2,
 			"TokenCostLimited": 2,
 			"MinLevelAppears": 0,
-			"MaxLevelAppears": 1,
+			"MaxLevelAppears": 0,
 			"Rarity": 1.0,
 			"Tables": [{
 				"Category": "Firearm",
@@ -223,7 +223,7 @@
 			"TokenCost": 2,
 			"TokenCostLimited": 2,
 			"MinLevelAppears": 1,
-			"MaxLevelAppears": 2,
+			"MaxLevelAppears": 1,
 			"Rarity": 1.0,
 			"Tables": [{
 				"Category": "Firearm",
@@ -277,7 +277,7 @@
 			"TokenCost": 3,
 			"TokenCostLimited": 3,
 			"MinLevelAppears": 2,
-			"MaxLevelAppears": 3,
+			"MaxLevelAppears": 2,
 			"Rarity": 1.0,
 			"Tables": [{
 				"Category": "Firearm",
@@ -295,6 +295,7 @@
 				"UseIDOverride": false,
 				"IDOverride": [],
 				"Eras": [
+					"PostWar",
 					"Modern"
 				],
 				"Sets": [
@@ -330,12 +331,12 @@
 			"TokenCost": 3,
 			"TokenCostLimited": 3,
 			"MinLevelAppears": 3,
-			"MaxLevelAppears": 4,
+			"MaxLevelAppears": 3,
 			"Rarity": 1.0,
 			"Tables": [{
 				"Category": "Firearm",
 				"ItemsToSpawn": 1,
-				"MinAmmoCapacity": 15,
+				"MinAmmoCapacity": 16,
 				"MaxAmmoCapacity": 20,
 				"NumMagsSpawned": 3,
 				"NumRoundsSpawned": 9,
@@ -388,7 +389,7 @@
 			"Tables": [{
 				"Category": "Firearm",
 				"ItemsToSpawn": 1,
-				"MinAmmoCapacity": 20,
+				"MinAmmoCapacity": 21,
 				"MaxAmmoCapacity": 30,
 				"NumMagsSpawned": 3,
 				"NumRoundsSpawned": 9,
@@ -435,13 +436,13 @@
 			"IconName": "TNH_Icon_pistols",
 			"TokenCost": 5,
 			"TokenCostLimited": 5,
-			"MinLevelAppears": 5,
+			"MinLevelAppears": 4,
 			"MaxLevelAppears": 99,
 			"Rarity": 1.0,
 			"Tables": [{
 				"Category": "Firearm",
 				"ItemsToSpawn": 1,
-				"MinAmmoCapacity": 30,
+				"MinAmmoCapacity": 31,
 				"MaxAmmoCapacity": 99,
 				"NumMagsSpawned": 3,
 				"NumRoundsSpawned": 9,
@@ -921,7 +922,7 @@
 				"MaxPatrols": 2,
 				"MaxPatrolsLimited": 1,
 				"PatrolCadence": 40.0,
-				"PatrolCadenceLimited": 40.0,
+				"PatrolCadenceLimited": 60.0,
 				"IFFUsed": 1,
 				"SwarmPlayer": false,
 				"AssualtSpeed": "Walking",
@@ -953,7 +954,7 @@
 				"TurretType": "SMG",
 				"EnemyType": "M_Swat_Guard",
 				"NumTurrets": 0,
-				"NumGuards": 3,
+				"NumGuards": 2,
 				"IFFUsed": 1
 			},
 			"HoldPhases": [{
@@ -986,8 +987,8 @@
 					],
 					"MinTargets": 3,
 					"MaxTargets": 3,
-					"MinTargetsLimited": 2,
-					"MaxTargetsLimited": 3,
+					"MinTargetsLimited": 1,
+					"MaxTargetsLimited": 1,
 					"EnemyType": [
 						"M_Swat_Scout"
 					],
@@ -1021,7 +1022,7 @@
 				"MaxPatrols": 2,
 				"MaxPatrolsLimited": 2,
 				"PatrolCadence": 40.0,
-				"PatrolCadenceLimited": 40.0,
+				"PatrolCadenceLimited": 60.0,
 				"IFFUsed": 1,
 				"SwarmPlayer": false,
 				"AssualtSpeed": "Walking",
@@ -1053,7 +1054,7 @@
 				"TurretType": "SMG",
 				"EnemyType": "M_Swat_Ranger",
 				"NumTurrets": 0,
-				"NumGuards": 4,
+				"NumGuards": 3,
 				"IFFUsed": 1
 			},
 			"HoldPhases": [{
@@ -1145,7 +1146,7 @@
 				"MaxPatrols": 3,
 				"MaxPatrolsLimited": 3,
 				"PatrolCadence": 40,
-				"PatrolCadenceLimited": 40,
+				"PatrolCadenceLimited": 60,
 				"IFFUsed": 1,
 				"SwarmPlayer": false,
 				"AssualtSpeed": "Walking",
@@ -1177,7 +1178,7 @@
 				"TurretType": "SMG",
 				"EnemyType": "M_Swat_Riflewiener",
 				"NumTurrets": 0,
-				"NumGuards": 6,
+				"NumGuards": 4,
 				"IFFUsed": 1
 			},
 			"HoldPhases": [{
@@ -1257,7 +1258,7 @@
 				"TurretType": "SMG",
 				"EnemyType": "M_Swat_Riflewiener",
 				"NumTurrets": 0,
-				"NumGuards": 6,
+				"NumGuards": 5,
 				"IFFUsed": 1
 			},
 			"Patrols": [{
@@ -1269,7 +1270,7 @@
 				"MaxPatrols": 3,
 				"MaxPatrolsLimited": 3,
 				"PatrolCadence": 40.0,
-				"PatrolCadenceLimited": 40.0,
+				"PatrolCadenceLimited": 60.0,
 				"IFFUsed": 1,
 				"SwarmPlayer": false,
 				"AssualtSpeed": "Walking",
@@ -1301,7 +1302,7 @@
 				"TurretType": "SMG",
 				"EnemyType": "M_Swat_Riflewiener",
 				"NumTurrets": 0,
-				"NumGuards": 8,
+				"NumGuards": 5,
 				"IFFUsed": 1
 			},
 			"HoldPhases": [{
@@ -1381,7 +1382,7 @@
 				"TurretType": "SMG",
 				"EnemyType": "M_Swat_Riflewiener",
 				"NumTurrets": 0,
-				"NumGuards": 8,
+				"NumGuards": 6,
 				"IFFUsed": 1
 			},
 			"Patrols": [{
@@ -1389,11 +1390,11 @@
 					"M_Swat_Scout"
 				],
 				"LeaderType": "M_Swat_Scout",
-				"PatrolSize": 1,
-				"MaxPatrols": 25,
-				"MaxPatrolsLimited": 20,
+				"PatrolSize": 2,
+				"MaxPatrols": 5,
+				"MaxPatrolsLimited": 4,
 				"PatrolCadence": 30.0,
-				"PatrolCadenceLimited": 50.0,
+				"PatrolCadenceLimited": 60.0,
 				"IFFUsed": 1,
 				"SwarmPlayer": true,
 				"AssualtSpeed": "Running",
@@ -1431,12 +1432,6 @@
 		},
 		"HoldPhases": [{
 				"Encryptions": [
-					"Recursive",
-					"Regenerative",
-					"Static",
-					"Agile",
-					"Hardened",
-					"Swarm",
 					"Stealth"
 				],
 				"MinTargets": 3,
@@ -1461,18 +1456,12 @@
 			},
 			{
 				"Encryptions": [
-					"Recursive",
-					"Regenerative",
-					"Static",
-					"Agile",
-					"Hardened",
-					"Swarm",
-					"Stealth"
+					"Regenerative"
 				],
-				"MinTargets": 4,
-				"MaxTargets": 4,
-				"MinTargetsLimited": 3,
-				"MaxTargetsLimited": 3,
+				"MinTargets": 1,
+				"MaxTargets": 1,
+				"MinTargetsLimited": 1,
+				"MaxTargetsLimited": 1,
 				"EnemyType": [
 					"M_Swat_SpecOps"
 				],
@@ -1491,18 +1480,12 @@
 			},
 			{
 				"Encryptions": [
-					"Recursive",
-					"Regenerative",
-					"Static",
-					"Agile",
-					"Hardened",
-					"Swarm",
-					"Stealth"
+					"Agile"
 				],
-				"MinTargets": 5,
-				"MaxTargets": 5,
-				"MinTargetsLimited": 4,
-				"MaxTargetsLimited": 4,
+				"MinTargets": 3,
+				"MaxTargets": 3,
+				"MinTargetsLimited": 2,
+				"MaxTargetsLimited": 2,
 				"EnemyType": [
 					"M_Swat_Riflewiener"
 				],
@@ -1524,7 +1507,7 @@
 			"TurretType": "SMG",
 			"EnemyType": "M_Swat_Riflewiener",
 			"NumTurrets": 0,
-			"NumGuards": 6,
+			"NumGuards": 7,
 			"IFFUsed": 1
 		},
 		"Patrols": [{
@@ -1532,11 +1515,11 @@
 				"M_Swat_SpecOps"
 			],
 			"LeaderType": "M_Swat_Heavy",
-			"PatrolSize": 5,
+			"PatrolSize": 3,
 			"MaxPatrols": 4,
 			"MaxPatrolsLimited": 3,
-			"PatrolCadence": 20.0,
-			"PatrolCadenceLimited": 20.0,
+			"PatrolCadence": 30.0,
+			"PatrolCadenceLimited": 60.0,
 			"IFFUsed": 1,
 			"SwarmPlayer": false,
 			"AssualtSpeed": "Walking",
