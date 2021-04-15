@@ -1,14 +1,21 @@
 {
   "guid": "h3vr.tnhtweaker.pistolpercy",
-  "version": "0.0.3.0",
+  "version": "1.1.0",
+  "require": "0.3.0",
   "dependencies": {
-      "h3vr.tnhtweaker.deli": "0.1.4.0"
+      "h3vr.tnhtweaker.deli": "1.6.0"
   },
   "name": "Pistol Percy",
+  "description": "Its Pistols and Machine Pistols only! Attachments are discounted and sosigs are numerous.",
+  "source_url": "https://bonetome.com/h3vr/characters/243/",
   "authors": [ 
     "Stark" 
   ],
-  "runtime": {
-    "PistolPercy/": "Character"
+  "assets": {
+	"patcher": {},
+	"setup":{
+		"PistolPercy/": "h3vr.tnhtweaker.deli:character"
+	},
+	"runtime": {}
   }
 }
